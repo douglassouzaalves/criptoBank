@@ -9,13 +9,15 @@ public class TestaFuncionario {
         funcionario1.getBonificacao();
         funcionario1.setCpf("222.222.222-22");
 
+        Funcionario funcionario2 = new Funcionario();
+        funcionario2.setNome("José");
+
 
         System.out.println("Carregando informações sobre o funcionário...");
         System.out.println("Nome do Funcionário: " + funcionario1.getNome());
         System.out.println("CPF: " + funcionario1.getCpf());
         System.out.println("Salário Atual: " + funcionario1.getSalario());
         System.out.println("Valor da bonificação: " + funcionario1.getBonificacao());
-
 
     }
 }

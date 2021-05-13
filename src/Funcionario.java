@@ -1,7 +1,7 @@
 public class Funcionario {
     private String nome;
     private String cpf;
-    private double salario;
+    private double salario; //apenas as classes "filhos" vão enxergar este atributo
 
     //modificar de visibilidade
     public double getBonificacao() {
@@ -37,4 +37,5 @@ public class Funcionario {
 
         this.salario = salario;
     }
+
 }

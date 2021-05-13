@@ -1,5 +1,4 @@
 public class Gerente extends Funcionario{
-
     private int senha;
 
     public void setSenha(int senha) {
@@ -13,11 +12,12 @@ public class Gerente extends Funcionario{
             return false;
         }
     }
+
+    public double getBonificacao() {
+        return super.getBonificacao() + super.getSalario(); //atributo da classe mãe(super classe)
+    }      //chamando o método da classe Funcionario
 }
 
 
-//public double getBonificacao() {
 
-      //  return this.salario;
-    // }           //referência
 
