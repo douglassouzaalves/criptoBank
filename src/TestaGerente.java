@@ -2,7 +2,7 @@ public class TestaGerente {
     public static void main(String[] args) {
         Gerente gerente1 = new Gerente();
 
-        gerente1.setNome("Fulano");
+        gerente1.setNome("Carlos");
         gerente1.setCpf("222-222-333-05");
         gerente1.setSenha(123);
         gerente1.setSalario(5000);

@@ -1,7 +1,7 @@
 public class Funcionario {
     private String nome;
     private String cpf;
-    private double salario; //apenas as classes "filhos" vão enxergar este atributo
+    private double salario;
 
     //modificar de visibilidade
     public double getBonificacao() {
