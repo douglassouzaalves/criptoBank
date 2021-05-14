@@ -5,6 +5,7 @@ public class Funcionario {
 
     //modificar de visibilidade
     public double getBonificacao() {
+
         return this.salario * 0.1;
     }           //referência
 
