@@ -11,7 +11,10 @@ public class TestaGerente {
         Funcionario editor = new EditorVideo();
         editor.setSalario(2000);
 
+        EditorVideo editor2 = new EditorVideo();
 
+
+        //polimorfismo
         ControleBonificacao controle = new ControleBonificacao();
         controle.registra(gerente1);
         controle.registra(editor);
