@@ -1,6 +1,8 @@
 public class TestaFuncionarios {
     public static void main(String[] args) {
-        Gerente gerente1 = new Gerente();
+
+        //polimorfismo
+        Funcionario gerente1 = new Gerente();
 
         gerente1.setNome("Fulano");
         gerente1.setSalario(5000);
