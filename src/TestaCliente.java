@@ -4,6 +4,10 @@ public class TestaCliente {
 
         novoCliente.setSenha(2222);
 
+        SistemaInterno validacao = new SistemaInterno();
+        validacao.autentica(novoCliente);
+
+
 
     }
 }

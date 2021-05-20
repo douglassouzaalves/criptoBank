@@ -1,7 +1,8 @@
 public class Programador extends Funcionario {
 
+    @Override
     public double getBonificacao() {
-        System.out.println("Programador");
+        System.out.println("Bonificação aplicada");
         return 500;
     }
 }
