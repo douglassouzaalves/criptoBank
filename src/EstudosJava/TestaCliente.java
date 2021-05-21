@@ -1,3 +1,5 @@
+package EstudosJava;
+
 public class TestaCliente {
     public static void main(String[] args) {
         Cliente novoCliente = new Cliente();

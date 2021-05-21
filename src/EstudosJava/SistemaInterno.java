@@ -1,6 +1,8 @@
+package EstudosJava;
+
 public class SistemaInterno {
 
-    private int senha = 2222; //senha interna do sistema
+    private final int senha = 2222; //senha interna do sistema
 
     public void autentica(Autenticavel usuarioAutenticavel) {
         boolean autenticou = usuarioAutenticavel.autentica(this.senha);

@@ -1,3 +1,5 @@
+package EstudosJava;
+
 public class ControleBonificacao {
     private double soma;
 

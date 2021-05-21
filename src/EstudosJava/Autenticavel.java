@@ -1,4 +1,4 @@
-//contrato Autenticavel
+package EstudosJava;//contrato EstudosJava.Autenticavel
 //quem "assina" esse contrato precisa implementa-lo.
 //método setSenha
 //método autentica

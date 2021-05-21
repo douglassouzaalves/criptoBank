@@ -1,3 +1,5 @@
+package EstudosJava;
+
 public class Administrador extends Funcionario implements Autenticavel {
 
     private SenhaAutenticacao autenticador;

@@ -1,4 +1,6 @@
-//Gerente é um Funcionario, o Gerente herda da classe Funcionario, e "assina o contrato" da Autenticacao
+package EstudosJava;
+
+//EstudosJava.Gerente é um EstudosJava.Funcionario, o EstudosJava.Gerente herda da classe EstudosJava.Funcionario, e "assina o contrato" da Autenticacao
 public class Gerente extends Funcionario implements Autenticavel {
 
     private SenhaAutenticacao autenticador;
@@ -11,7 +13,7 @@ public class Gerente extends Funcionario implements Autenticavel {
     public double getBonificacao() {
         System.out.println("Bonificação de GERENTE");
         return super.getSalario(); //atributo da classe mãe(super classe)
-    }      //chamando o método da classe Funcionario
+    }      //chamando o método da classe EstudosJava.Funcionario
 
     @Override
     public void setSenha(int senha) {

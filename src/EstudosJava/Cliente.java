@@ -1,3 +1,5 @@
+package EstudosJava;
+
 public class Cliente implements Autenticavel {
 
     private SenhaAutenticacao autenticador; //declarando como atributo para poder acessa-lo.
@@ -8,7 +10,7 @@ public class Cliente implements Autenticavel {
 
     @Override
     public void setSenha(int senha) {
-        this.autenticador.setSenha(senha); //chamando autenticador e usando setSenhadele
+        this.autenticador.setSenha(senha); //chamando autenticador e usando setSenha dele
     }
 
     @Override
