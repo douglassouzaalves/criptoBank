@@ -1,6 +1,8 @@
-package EstudosJava;
+package br.com.estudos.classes;
 
-//EstudosJava.Gerente é um EstudosJava.Funcionario, o EstudosJava.Gerente herda da classe EstudosJava.Funcionario, e "assina o contrato" da Autenticacao
+import br.com.estudos.interface1.Autenticavel;
+
+//Gerente é um Funcionario, o Gerente herda da classe Funcionario, e "assina o contrato" da Autenticação.
 public class Gerente extends Funcionario implements Autenticavel {
 
     private SenhaAutenticacao autenticador;

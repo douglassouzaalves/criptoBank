@@ -1,4 +1,6 @@
-package EstudosJava;
+package br.com.estudos.testador;
+
+import br.com.estudos.classes.*;
 
 public class TestaFuncionarios {
     public static void main(String[] args) {

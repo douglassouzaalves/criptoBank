@@ -1,4 +1,6 @@
-package EstudosJava;
+package br.com.estudos.classes;
+
+import br.com.estudos.interface1.Autenticavel;
 
 public class Administrador extends Funcionario implements Autenticavel {
 
@@ -9,7 +11,7 @@ public class Administrador extends Funcionario implements Autenticavel {
     }
 
     @Override
-    public double getBonificacao() {
+    public double getBonificacao() { //polimorfismo
         return 1000;
     }
 

@@ -1,11 +1,12 @@
-package EstudosJava;
+package br.com.estudos.classes;
 
+//classe abstrata
 public  abstract class Funcionario {
     private String nome;
     private String cpf;
     private double salario;
 
-    //metodo
+    //metodo abstrato
     public abstract double getBonificacao();
 
     public String getNome() {

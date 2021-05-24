@@ -1,4 +1,6 @@
-package EstudosJava;
+package br.com.estudos.classes;
+
+import br.com.estudos.interface1.Autenticavel;
 
 public class Cliente implements Autenticavel {
 
@@ -15,7 +17,7 @@ public class Cliente implements Autenticavel {
 
     @Override
     public boolean autentica(int senha) {
-            return this.autenticador.autentica(senha);
+            return this.autenticador.autentica(senha); //delegando a chamada
         }
     }
 

@@ -1,4 +1,7 @@
-package EstudosJava;
+package br.com.estudos.testador;
+
+import br.com.estudos.classes.Cliente;
+import br.com.estudos.classes.SistemaInterno;
 
 public class TestaCliente {
     public static void main(String[] args) {

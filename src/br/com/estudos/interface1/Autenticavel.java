@@ -1,5 +1,6 @@
-package EstudosJava;//contrato EstudosJava.Autenticavel
-//quem "assina" esse contrato precisa implementa-lo.
+package br.com.estudos.interface1;
+//"termo" Autenticavel
+//quem "assina" esse termo precisa implementa-lo.
 //método setSenha
 //método autentica
 

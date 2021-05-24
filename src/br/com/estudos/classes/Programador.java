@@ -1,9 +1,10 @@
-package EstudosJava;
+package br.com.estudos.classes;
 
-public class EditorVideo extends Funcionario{
+public class Programador extends Funcionario {
+
     @Override
     public double getBonificacao() {
         System.out.println("Bonificação aplicada");
-        return + 150;
+        return 500;
     }
 }

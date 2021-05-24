@@ -1,4 +1,4 @@
-package EstudosJava;
+package br.com.estudos.classes;
 
 public class ControleBonificacao {
     private double soma;
