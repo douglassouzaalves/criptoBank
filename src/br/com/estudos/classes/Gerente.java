@@ -2,7 +2,7 @@ package br.com.estudos.classes;
 
 import br.com.estudos.interface1.Autenticavel;
 
-//Gerente é um Funcionario, o Gerente herda da classe Funcionario, e "assina o contrato" da Autenticação.
+//Gerente é um Funcionario, o Gerente herda da classe Funcionario, e "assina o termo" da Autenticação.
 public class Gerente extends Funcionario implements Autenticavel {
 
     private SenhaAutenticacao autenticador;
@@ -11,11 +11,11 @@ public class Gerente extends Funcionario implements Autenticavel {
         this.autenticador = new SenhaAutenticacao();
     }
 
-    @Override
+    @Override  //polimorfismo
     public double getBonificacao() {
         System.out.println("Bonificação de GERENTE");
         return super.getSalario(); //atributo da classe mãe(super classe)
-    }      //chamando o método da classe EstudosJava.Funcionario
+    }
 
     @Override
     public void setSenha(int senha) {

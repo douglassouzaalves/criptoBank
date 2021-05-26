@@ -6,8 +6,8 @@ public  abstract class Funcionario {
     private String cpf;
     private double salario;
 
-    //metodo abstrato
-    public abstract double getBonificacao();
+    //método abstrato
+    public abstract double getBonificacao(); //assinatura do método
 
     public String getNome() {
 
